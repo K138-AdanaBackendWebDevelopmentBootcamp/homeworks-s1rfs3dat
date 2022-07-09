@@ -5,7 +5,7 @@ import javax.persistence.Entity;
 @Entity
 public class VisitingInstructor extends Instructors {
     private double sumHourlySalary;
-    private int hourlyFee = 20;//Saatlik ucret
+    private int hourlyFee = 20;
 
 
     public VisitingInstructor(String name, String address, String phoneNumber, int id, double sumHourlySalary) {
